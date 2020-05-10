@@ -18,11 +18,7 @@ function listTitles(fantasyShelf) {
 }
 
 function searchShelf(scifiShelf, bookTitle) {
-  if (scifiShelf.find(book => book.title === bookTitle)) {
-    return true;
-  } else {
-    return false;
-  }
+  return Boolean(scifiShelf.find(book => book.title === bookTitle));
 }
 
 module.exports = {
