@@ -34,7 +34,6 @@ function checkoutBook(library, bookTitle) {
   return  `Sorry, there are currently no copies of ${bookTitle} available at the ${library.name}`;
 }
 
-
 module.exports = {
   createLibrary: createLibrary,
   addBook: addBook,

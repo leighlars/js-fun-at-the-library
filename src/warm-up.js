@@ -9,7 +9,7 @@ var sequel = `${title} Again`;
 var isFavorite = false;
 var isShortStory = pages < 25;
 
-//------------------------- Functions -------------------------//
+//------------------------- Conditionals -------------------------//
 function quickRead() {
   if (title.length < 1000) {
     console.log("I could read that in a day!");

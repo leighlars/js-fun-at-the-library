@@ -25,3 +25,6 @@ I utilized my Turing lesson plans, MDN, and two alumni Ryan Barnett & Ricardo Vi
 ### 4: Complete the Librarian tests
   - I completed the Librarian test on May 9 at 7:00 pm.
   - I will continue to refactor and mess around with this test, and push that up.  
+
+### Notes
+  - I created a page in the src folder called "mess-around". It is a space for the ugly pseudo code, notes, and alternative code solutions

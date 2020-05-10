@@ -1,7 +1,5 @@
-function shelfBook(book, scifiShelf) {
-  if (scifiShelf.length < 3) {
-    scifiShelf.unshift(book)
-  }
+function shelfBook(book, shelf) {
+  shelf.length < 3 ? shelf.unshift(book) : undefined;
 }
 
 function unshelfBook(removedBookTitle, scifiShelf) {
@@ -9,17 +7,18 @@ function unshelfBook(removedBookTitle, scifiShelf) {
   scifiShelf.splice(i, 1);
 }
 
-function listTitles(fantasyShelf) {
-  var titles = [];
-  for (var i = 0; i < fantasyShelf.length; i++) {
-    titles.push(fantasyShelf[i].title);
-  }
-  return titles.join(", ");
+function listTitles(shelf) {
+  var titleList = shelf.map(book => book.title);
+  return titleList.join(", ");
 }
 
-function searchShelf(scifiShelf, bookTitle) {
-  return Boolean(scifiShelf.find(book => book.title === bookTitle));
+function searchShelf(shelf, bookTitle) {
+  if (shelf.find(book => book.title === bookTitle)) {
+    return true
+  }
+  return false;
 }
+
 
 module.exports = {
   shelfBook: shelfBook,
