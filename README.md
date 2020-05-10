@@ -1,9 +1,9 @@
 # JS Fun in the Library
 
-Leigh Larson
-GitHub: https://github.com/leighlars
-Slack: Leigh Larson
-Email: leighlarson4@gmail.com
+- Leigh Larson
+- GitHub: https://github.com/leighlars
+- Slack: Leigh Larson
+- Email: leighlarson4@gmail.com
 
 ## Overview & Goals
 For this solo project, I will focus on demonstrating my knowledge and comprehension of JS primitives and their appropriate use and assignments. I will also demonstrate how to utilize arrays and objects.
