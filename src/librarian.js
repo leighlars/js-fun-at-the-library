@@ -24,7 +24,6 @@ class Librarian {
   calculateLateFee(day) {
     return Math.ceil(day * .25);
   }
-
 }
 
 module.exports = Librarian;
